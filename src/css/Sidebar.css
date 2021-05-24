@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100vh;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__header > .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar__header > .sidebar__input {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background-color: rgba(255, 0, 242, 0.877);
+  border-radius: 33px;
+  padding: 5px;
+  width: 100%;
+}
+
+.sidebar__header > .MuiSvgIcon-root:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar__input > form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.sidebar__header > .sidebar__input:hover {
+  border: 1px solid rgb(0, 140, 255);
+}
+
+.sidebar__input > form > input {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.sidebar__input > form > .MuiSvgIcon-root {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  margin-left: 5px;
+}
+
+.sidebar__chats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__notes {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.sidebar__notes:hover {
+  background-color: rgba(151, 151, 151, 0.6);
+  cursor: pointer;
+}
+.sidebar__notesIcon {
+  display: flex;
+  align-items: center;
+  background-color: rgb(8, 53, 255);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.sidebar__note {
+  background-color: rgb(8, 53, 255);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.sidebar__note > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: white;
+}
+
+.sidebar__notesIcon > .MuiSvgIcon-root {
+  color: white;
+}
+.sidebar__notes > p {
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.modal__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.modal__info > h3 {
+  color: rgb(46, 46, 46);
+  margin-bottom: 10px;
+}
+
+.modal__info > .name__input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.modal__add {
+  padding: 5px;
+  background-color: rgb(4, 71, 255);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.modal__add:hover {
+  background-color: rgb(255, 0, 255);
+}
+
+.modal__info > button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 33px;
+  margin-left: auto;
+}
+
+.modal__info > button:hover {
+  background-color: lightgray;
+  color: red;
+  cursor: pointer;
+}
+
+.modal__info > h5 {
+  color: gray;
+  font-size: x-large;
+  margin-top: 10px;
+}
+
+.modal__info > h2 {
+  font-size: xx-large;
+  font-family: "Cedarville Cursive", "cursive";
+  margin-bottom: 50px;
+}

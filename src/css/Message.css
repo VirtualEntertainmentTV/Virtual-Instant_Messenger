@@ -1,0 +1,26 @@
+.message {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+.message__content {
+  display: flex;
+  background-color: rgb(23, 53, 221);
+  flex-direction: column;
+  width: fit-content;
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+}
+
+.message__content > span {
+  color: rgb(155, 155, 155);
+  border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.message__content > small {
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+}
